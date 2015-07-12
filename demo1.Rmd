@@ -1,0 +1,17 @@
+---
+title: "Rmarkdown Demo"
+output: pdf_document
+date: "July 12, 2015"
+---
+
+This is a neat way to combine text and R code.
+
+1.  You can create lists
+2.  Run R code
+
+```{r}
+x <- rnorm(50)
+plot(x)
+```
+
+3.  And discuss the results.
